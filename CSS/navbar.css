@@ -1,0 +1,21 @@
+.nav {
+    min-height: 42px;
+    background-color: rgb(234, 240, 121);
+    display: flex;
+    justify-content: center;
+    /* position: fixed;
+    z-index: 1; */
+
+}
+
+.nav-list {
+    padding-left: 0;
+    margin: auto 16px;
+}
+
+.nav-item {
+    color: black;
+    list-style: none;
+    margin: 0 8px;
+    display: inline-block;
+}
