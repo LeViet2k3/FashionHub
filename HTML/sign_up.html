@@ -14,15 +14,17 @@
         <div class="box1">
             <h3>Sign up</h3>
         </div>
-        <div class="box2">
-            <input type="email" class="mail" placeholder="Email" autocomplete="off" required>
-        </div>
-        <div class="box3">
-            <input type="password" class="mail" placeholder="Password" autocomplete="off" required>
-        </div>
-        <div class="box5">
-            <button><a href="./register.html">Continue</a></button>
-        </div>
+        <form action="../PHP/sign_up.php" method="post">
+            <div class="box2">
+                <input type="email" name="email" class="mail" placeholder="Email" autocomplete="off" required>
+            </div>
+            <div class="box3">
+                <input type="password" name="password" class="mail" placeholder="Password" autocomplete="off" required>
+            </div>
+            <div class="box5">
+                <button type="submit">Continue</button>
+            </div>
+        </form>
         <div class="box6">
             <p> Have a account</p>
             <a href="#">Log in</a>

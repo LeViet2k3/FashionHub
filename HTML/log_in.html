@@ -14,21 +14,24 @@
         <div class="box1">
             <h3>Log in</h3>
         </div>
-        <div class="box2">
-            <input type="email" class="mail" placeholder="Email" autocomplete="off" required>
-            <i class="fa-solid fa-envelope"></i>
-        </div>
-        <div class="box3">
-            <input type="password" class="mail" placeholder="Password" autocomplete="off" required>
-            <i class="fa-solid fa-lock"></i>
-        </div>
-        <div class="box4">
-            <input type="checkbox" class="checkbox">
-            <label for="check">Remember Me Forget Password</label>
-        </div>
-        <div class="box5">
-            <button> <a href="">Log in</a></button>
-        </div>
+        <form action="../PHP/log_in.php" method="post">
+            <div class="box2">
+                <input type="email" name="email" class="mail" placeholder="Email" required>
+                <i class="fa-solid fa-envelope"></i>
+            </div>
+            <div class="box3">
+                <input type="password" class="mail" placeholder="Password" required>
+                <i class="fa-solid fa-lock"></i>
+            </div>
+            <div class="box4">
+                <input type="checkbox" class="checkbox">
+                <label for="check">Remember Me Forget Password</label>
+            </div>
+            <div class="box5">
+                <button type="submit">Log in</button>
+            </div>
+        </form>
+
         <div class="box6">
             <p> Don't have a account</p>
             <a href="./sign_up.html">Sign up</a>

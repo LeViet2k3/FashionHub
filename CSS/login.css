@@ -84,7 +84,7 @@ body {
     margin-bottom: 20px;
 }
 
-.box5 button {
+.box5 {
     width: 100%;
     height: 60px;
     border-radius: 30px;
@@ -98,10 +98,10 @@ body {
 
 
 
-button a {
+/* button a {
     color: azure;
     text-decoration: none;
-}
+} */
 
 .box6 {
     display: flex;
