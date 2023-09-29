@@ -14,7 +14,8 @@ if (!$conn) {
 
 // Câu lệnh SQL để lấy dữ liệu từ bảng sinh_vien
 $email = $_POST['email'];
-$sql = "SELECT * FROM website where email = '$email'";
+$password = $_POST['password'];
+$sql = "SELECT * FROM website where email = '$email' and passwords = '$password'";
 
 // Thực thi câu lệnh SQL
 $result = mysqli_query($conn, $sql);
